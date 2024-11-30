@@ -1,0 +1,58 @@
+{
+  "name": "KHANX-AI",
+  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
+  "logo": "https://files.catbox.moe/hzagwo.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    },  
+    
+    "PREFIX": {
+      "description": "set prefix for your bot like (.*).",
+      "required": false,
+      "value": "."
+    },
+    
+    "MODE": {
+      "description": "set public or private bot.",
+      "required": false,
+      "value": "public"
+    },
+    
+    "AUTO_READ_STATUS": {
+      "description": "make false or true for status auto seen.",
+      "required": false,
+      "value": "true"
+    },
+    
+    "SUDO_NB": {
+      "description": "Put sudo or owner number.",
+      "required": false,
+      "value": "923146190772"
+    },
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": false,
+      "value": "https://files.catbox.moe/hzagwo.jpg"
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": false,
+      "value": "Zinda Houn Yar"
+    }   
+  },
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
