@@ -12,11 +12,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*Hello there KHANX-AI User! 👋🏻* 
+let dec = `*Hello there SREEJAN-XD User! 👋🏻* 
 
-> KHANX-Ai is a beta version of KHAN-AI also it provide enhanced functionality to users
+> SREEJAN XD is a beta version of OYY SREEJAN also it provide enhanced functionality to users
 
- *Thanks for using KHAN-MD 🇵🇰* 
+ *Thanks for using SREEJAN-XD 🇵🇰* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -24,7 +24,7 @@ https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j
 
 Dont forget to give star to repo ⬇️
 
-https://github.com/JawadYTX/KHANX-AI`
+https://github.com/sreejanxd/SREEJAN_XD`
     
 await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/hzagwo.jpg`},caption:dec},{quoted:mek});
 
