@@ -11,9 +11,9 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `╭━━━〔 *KHANX-AI* 〕━━━┈⊷
+let dec = `╭━━━〔 * ─꯭⃜⃜͢͢🌸꯭͟🇸𝖗𝖊𝖊𝖏𝖆𝖓།꯭͓⎯꯭ͯ𓆗* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ Owner : *Jᴀᴡᴀᴅ TᴇᴄʜX*
+┃★│ Owner : *OYY SREEJAN*
 ┃★│ Baileys : *Multi Device*
 ┃★│ Type : *NodeJs*
 ┃★│ Platform : *Heroku*
@@ -110,7 +110,7 @@ let dec = `╭━━━〔 *KHANX-AI* 〕━━━┈⊷
 ╭━━❮*𝙲𝙷𝙰𝙽𝙽𝙴𝙻*❯━┈⊷
 ┃https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j
 ╰────────────────··๏
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX`
+> ©  ᴘᴏᴡᴇʀᴇᴅ ʙʏ sʀᴇᴇᴊᴀɴ xᴅ`
 await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/hzagwo.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
