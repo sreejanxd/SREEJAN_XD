@@ -12,7 +12,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/JawadYTX/KHANX-AI.git'; 
+        const repoUrl = 'https://github.com/sreejanxd/SREEJAN_XD.git'; 
         const targetFolder = 'plugins';
 
         
