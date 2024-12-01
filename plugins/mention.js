@@ -24,5 +24,5 @@ pattern: 'mention ?(.*)',
             return await message.reply('_Error in updating__');
         }
     }
-    return await message.reply("_You can check the format of mention https://github.com/Loki-Xer/Jarvis-md/wiki_");
+    return await message.reply("_You can check the format of mention https://github.com/sreejanxd");
 });
