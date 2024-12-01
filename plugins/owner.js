@@ -9,8 +9,8 @@ cmd({
 }, 
 async (conn, mek, m, { from }) => {
     try {
-        const ownerNumber = '+923146190772';
-        const ownerName = 'KHANX-MD'; 
+        const ownerNumber = '+917439382677';
+        const ownerName = 'SREEJAN-XD'; 
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         await conn.sendMessage(from, {
             text: `*☇━━━━━━━━━━━━━━┈⊷▷*
    *Owner Contact Number  ⬆️* 
-> ★Bot Name : *KHANX-MD*
+> ★Bot Name : *SREEJAN-XD*
 > ★Owner Name : *${ownerName}*
 > *★ WhatsApp Channel ⤵️* 
 
@@ -38,7 +38,7 @@ https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j
 
 > *★GitHub Repo Link ⤵️* 
 
-https://github.com/JawadYTX/KHANX-AI
+https://github.com/sreejanxd/SREEJAN_XD
 *☇━━━━━━━━━━━━━━┈⊷▷*`,
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
