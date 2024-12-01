@@ -140,7 +140,7 @@ System({
         author: stickerPackNameParts[1], 
         type: StickerTypes.ROUNDED ,
         categories: ["🤩", "🎉"], 
-        id: "https://github.com/Loki-Xer/jarvis-md",
+        id: "https://github.com/sreejanxd/SREEJAN_XD",
         quality: 75, 
    });
    const buffer = await sticker.toBuffer();
@@ -179,7 +179,7 @@ System({
         author: stickerPackNameParts[1], 
         type: StickerTypes.CIRCLE ,
         categories: ["🤩", "🎉"],
-        id: "https://github.com/Loki-Xer/jarvis-md", 
+        id: "https://github.com/sreejanxd/SREEJAN_XD", 
         quality: 75,
    });
   const buffer = await sticker.toBuffer();
@@ -201,7 +201,7 @@ System({
         author: stickerPackNameParts[1], 
         type: StickerTypes.CROPPED,
         categories: ["🤩", "🎉"],
-        id: "https://github.com/Loki-Xer/jarvis-md", 
+        id: "https://github.com/sreejanxd/SREEJAN_XD", 
         quality: 75, 
    });
    const buffer = await sticker.toBuffer();
@@ -299,7 +299,12 @@ System({
   const rtype = match ? match.toLowerCase() : '';
   if (!rmap.hasOwnProperty(rtype)) return await message.reply('*Need rotation type.*\n_Example: .rotate left, right, vertical, or horizontal_');
   const option = rmap[rtype];
-  var url = await makeUrl(await message.reply_message.downloadAndSave(), { 'User-Agent': 'Jarvis' });
+  var url = await makeUrl(await message.reply_message.downloadAndSave(), { 'User-Agent': 'Jarvis
+      
+      
+      
+      
+      ' });
   await message.sendFromUrl(IronMan(`ironman/convert/rotate?image=${url}&option=${option}`));
 });
 
